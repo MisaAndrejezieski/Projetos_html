@@ -8,7 +8,7 @@ const PORT = 3000;
 // Configurar o armazenamento com multer
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, 'Pag_fotos/fotos_Post');
+        cb(null, 'Pag_videos/videos_Post');
     },
     filename: function (req, file, cb) {
         cb(null, Date.now() + path.extname(file.originalname));
@@ -18,12 +18,12 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 // Servir arquivos estáticos
-app.use(express.static(path.join(__dirname, 'Pag_fotos')));
+app.use(express.static(path.join(__dirname, 'Pag_videos')));
 app.use(express.static(path.join(__dirname, '')));
 
-// Rota para upload de fotos
-app.post('/upload', upload.single('photoFile'), (req, res) => {
-    res.send('Foto enviada com sucesso!');
+// Rota para upload de vídeos
+app.post('/upload_video', upload.single('videoFile'), (req, res) => {
+    res.send('Vídeo enviado com sucesso!');
 });
 
 app.listen(PORT, () => {
