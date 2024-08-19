@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../fotos.html">Fotos</a></li>
+                <li><a href="../videos.html">Vídeos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="../sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Notícias</h1>
+        <form id="newsForm">
+            <label for="newsTitle">Título da Notícia:</label>
+            <input type="text" id="newsTitle" name="newsTitle" required>
+            <label for="newsContent">Conteúdo da Notícia:</label>
+            <textarea id="newsContent" name="newsContent" required></textarea>
+            <button type="submit">Postar Notícia</button>
+        </form>
+        <div id="newsGallery"></div>
+    </main>
+    <footer>
+        <p>Contato: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+        <p>Siga-nos: 
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://www.tumblr.com" target="_blank">Tumblr</a> | 
+            <a href="https://www.pinterest.com" target="_blank">Pinterest</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
