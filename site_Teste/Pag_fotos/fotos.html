@@ -20,7 +20,7 @@
     </header>
     <main>
         <h1>Fotos</h1>
-        <form id="photoForm">
+        <form id="photoForm" action="/upload" method="post" enctype="multipart/form-data">
             <label for="photoTitle">Título da Foto:</label>
             <input type="text" id="photoTitle" name="photoTitle" required>
             <label for="photoFile">Escolha a Foto:</label>
