@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolhas Geladas Subaquáticas</title>
+    <title>Fotos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="fotos.html">Fotos</a></li>
-                <li><a href="videos.html">Vídeos</a></li>
-                <li><a href="noticias.html">Notícias</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="../videos.html">Vídeos</a></li>
+                <li><a href="../noticias.html">Notícias</a></li>
+                <li><a href="../sobre.html">Sobre Nós</a></li>
             </ul>
         </nav>
     </header>
-    <canvas id="bubbleCanvas"></canvas>
+    <main>
+        <h1>Fotos</h1>
+        <form id="photoForm">
+            <label for="photoTitle">Título da Foto:</label>
+            <input type="text" id="photoTitle" name="photoTitle" required>
+            <label for="photoFile">Escolha a Foto:</label>
+            <input type="file" id="photoFile" name="photoFile" accept="image/*" required>
+            <button type="submit">Postar Foto</button>
+        </form>
+        <div id="photoGallery"></div>
+    </main>
     <footer>
-        <p>Contato: <a href="mandrejezieski@gmail.com">mandrejezieski@gmail.com</a></p>
+        <p>Contato: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
         <p>Siga-nos: 
-            <a href="https://www.facebook.com/profile.php?id=100034358779961" target="_blank">Facebook</a> | 
-            <a href="https://www.instagram.com/misaelandrejezieski/" target="_blank">Instagram</a> | 
-            <a href="https://www.tumblr.com/blog/misa888" target="_blank">Tumblr</a> | 
-            <a href="https://br.pinterest.com/mandrejezieski/" target="_blank">Pinterest</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://www.tumblr.com" target="_blank">Tumblr</a> | 
+            <a href="https://www.pinterest.com" target="_blank">Pinterest</a>
         </p>
     </footer>
     <script src="script.js"></script>
