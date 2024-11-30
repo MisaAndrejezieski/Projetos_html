@@ -1,0 +1,41 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 30 Nov 2024 16:12:57 at https://www.connectionfestival.com.br/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" https://www.connectionfestival.com.br/ -O1 "D:\Cópia Sites 001" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:13:12	Error: 	"Error when decompressing" (-1) at link https://connect.facebook.net/en_US/fbevents.js (from https://www.connectionfestival.com.br/)
+16:13:12	Error: 	"Error when decompressing" (-1) at link https://seusite.com/images/ftcapa10.jpg (from https://www.connectionfestival.com.br/)
+16:13:12	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from https://www.connectionfestival.com.br/)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/glyphicons-halflings-regular.eot (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/glyphicons-halflings-regular.eot? (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/glyphicons-halflings-regular.woff2 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/glyphicons-halflings-regular.woff (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/glyphicons-halflings-regular.ttf (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/glyphicons-halflings-regular.svg (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/fontawesome-webfont.eot?v=4.5.0 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/fontawesome-webfont.eot? (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/fontawesome-webfont.woff?v=4.5.0 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/fontawesome-webfont.ttf?v=4.5.0 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/fontawesome-webfont.svg?v=4.5.0 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/Flaticon.eot (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/Flaticon.eot? (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/Flaticon.woff (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/Flaticon.ttf (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/Flaticon.svg (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/css/Flaticon.svg (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/materialdesignicons-webfont.eot?v=1.4.57 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/materialdesignicons-webfont.eot? (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/materialdesignicons-webfont.woff?v=1.4.57 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/materialdesignicons-webfont.ttf?v=1.4.57 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/fonts/materialdesignicons-webfont.svg?v=1.4.57 (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/images/633328.png (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/images/preloader.gif (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/images/photoswipe-controls.png (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/images/photoswipe-controls.svg (from https://www.connectionfestival.com.br/css/style.css)
+16:13:12	Error: 	"Not Found" (404) at link https://www.connectionfestival.com.br/images/preloader.png (from https://www.connectionfestival.com.br/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 seconds : 49 links scanned, 18 files written (26579200 bytes overall) [26697355 bytes received at 1779823 bytes/sec], 68674 bytes transferred using HTTP compression in 2 files, ratio 100%, 7.0 requests per connection
+(30 errors, 0 warnings, 0 messages)
