@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Site</title>
+    <script>
+        function submitForm() {
+            var site = document.getElementById("site").value;
+            if (site) {
+                // Pass the URL to the batch script
+                window.location.href = "baixar_site.bat?site=" + encodeURIComponent(site);
+            } else {
+                alert("Por favor, insira um URL.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Insira o URL do Site</h1>
+    <form onsubmit="submitForm(); return false;">
+        <input type="text" id="site" name="site" required>
+        <button type="submit">Download</button>
+    </form>
+</body>
+</html>
