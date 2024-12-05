@@ -8,10 +8,14 @@
         function submitForm() {
             var site = document.getElementById("site").value;
             if (site) {
-                // Armazenar o URL no localStorage
-                localStorage.setItem("site", site);
-                // Abrir o script de download
-                window.location.href = "baixar_site.bat";
+                // Armazena o URL em um arquivo
+                var fs = new ActiveXObject("Scripting.FileSystemObject");
+                var file = fs.CreateTextFile("site_url.txt", true);
+                file.WriteLine(site);
+                file.Close();
+                // Executa o script batch
+                var shell = new ActiveXObject("WScript.Shell");
+                shell.Run("baixar_site.bat");
             } else {
                 alert("Por favor, insira um URL.");
             }
