@@ -8,8 +8,10 @@
         function submitForm() {
             var site = document.getElementById("site").value;
             if (site) {
-                // Pass the URL to the batch script
-                window.location.href = "baixar_site.bat?site=" + encodeURIComponent(site);
+                // Armazenar o URL no localStorage
+                localStorage.setItem("site", site);
+                // Abrir o script de download
+                window.location.href = "baixar_site.bat";
             } else {
                 alert("Por favor, insira um URL.");
             }
