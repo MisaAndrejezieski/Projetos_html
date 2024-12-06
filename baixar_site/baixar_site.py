@@ -22,3 +22,4 @@ try:
     subprocess.run(command, check=True)
 except subprocess.CalledProcessError as e:
     print(f"Erro ao executar o wget: {e}")
+    
